@@ -1,0 +1,132 @@
+body {
+  background: #fdf07c; /* רקע זהוב */
+  height: 150vh; /* גובה מלא של הדף */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  padding: 15px;
+}
+.cuntainer {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  position: absolute;
+  left: 250px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 15px 75px 10000px rgb(92, 87, 53);
+}
+#div1 {
+  height: 150vh;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d8b819;
+  padding: 0px;
+}
+#div2 {
+  height: 150vh;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #d8b819;
+
+  /* border-left: 6px solid #d8b819; */
+}
+#img1 {
+  height: 700px;
+  width: 500px;
+  position: relative;
+  top: -5px;
+}
+#img2 {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50px;
+  color: black;
+}
+
+#heading1 {
+  color: #5dff0c;
+  font-size: large;
+}
+#heading2 {
+  color: black;
+  font-family: cursive;
+  font-size: 25px;
+  position: relative;
+  left: 45px;
+}
+#heading4,
+#heading3,
+#heading5 {
+  font-size: 35px;
+  font-family: "Mogra", serif;
+}
+#firstdiv {
+  position: relative;
+  top: -100px;
+  left: 25px;
+  font-weight: bold;
+}
+
+#para1 {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* position: absolute; */
+  left: 50px;
+}
+#a1,
+#a2,
+#a3 {
+  font-size: 10px;
+  font-style: italic;
+  position: relative;
+  text-decoration: none;
+  color: #d8b819;
+  text-align: end;
+  top: 35px;
+  left: 100px;
+  /* background-size: cover; */
+}
+#logo {
+  position: relative;
+
+  top: 70px;
+  left: -130px;
+  display: flexbox;
+  align-items: center; /* מיישר את האייקון והטקסט לגובה אחיד */
+  gap: 10px; /* מוסיף רווח קטן בין האייקון לטקסט */
+  margin-bottom: 10px;
+}
+span {
+  font-size: 25px;
+  font-style: italic;
+  position: relative;
+  text-decoration: none;
+  color: #d8b819;
+  text-align: end;
+  top: -30px;
+  left: -15px;
+}
+ul,
+ol {
+  list-style: none;
+  font-size: 20px;
+  /* padding: 5px; */
+  margin-bottom: 10px;
+}
