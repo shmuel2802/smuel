@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="rps.css" />
+
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <div class="game-container">
+      <div class="top">
+        <h1>
+          Rock<br />
+          Paper<br />
+          Scissors
+        </h1>
+        <div class="score">
+          <p id="p">Score<span id="score"></span></p>
+        </div>
+      </div>
+      <div id="choise-screen">
+        <div class="but">
+          <button id="rock" onclick="playGame('rock')"></button>
+          <button id="paper" onclick="playGame('paper')"></button>
+          <button id="scissors" onclick="playGame('scissors')"></button>
+        </div>
+        <button id="rulse" onclick="Restart()">RESTART</button>
+      </div>
+    </div>
+    <div id="result-screen">
+      <h2 id="result-text"></h2>
+      <div class="result-box">
+        <div>
+          <p class="picked" id="userPick">You picked</p>
+          <div id="user-choise" class="choise"></div>
+        </div>
+        <div>
+          <p class="picked" id="computerPick">The house picked</p>
+          <div id="computer-choise" class="choise"></div>
+        </div>
+        <div>
+          <button onclick="resetGame()" id="again">PLAY AGAIN</button>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="rps.js"></script>
+  </body>
+</html>
